@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sneas/cv-project.git"
+    "url": "git+https://github.com/narcisobenigno/cv.git"
   },
   "keywords": [
     "cv",
@@ -26,14 +26,14 @@
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "dayjs": "^1.11.4",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.1",
     "git-repo-name": "^1.0.1",
     "git-username": "^1.0.0",
     "handlebars": "^4.7.7",
-    "live-server": "^1.2.2",
+    "live-server": "^1.1.0",
     "markdown": "^0.5.0",
-    "puppeteer": "^16.1.0",
+    "puppeteer": "^19.8.5",
     "speakingurl": "^14.0.1",
-    "watch": "^1.0.2"
+    "watch": "^0.13.0"
   }
 }
