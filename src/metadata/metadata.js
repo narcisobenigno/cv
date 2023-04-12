@@ -9,7 +9,7 @@ module.exports = {
     Linkedin:
       '<a href="https://www.linkedin.com/in/narcisobenigno/"><i class="fa-brands fa-linkedin-in fact-icon"></i>narcisobenigno</a>',
     GitHub:
-      '<a href=""https://github.com/narcisobenigno/><i class="fa fa-github fact-icon"></i>narcisobenigno</a>',
+      '<a href=""https://github.com/narcisobenigno/><i class="fab fa-github fact-icon"></i>narcisobenigno</a>',
   },
   positions: [
     {
