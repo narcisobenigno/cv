@@ -36,7 +36,7 @@ InDebted is a debt collection company that relies a lot on data to provide a sma
     },
     {
       title: "Pragmateam - Software developer - Sydney, Australia",
-      period: "December 2018 - August 2020",
+      period: "Dec 2018 - Aug 2020",
       skills: [
         "Agile",
         "OO",
@@ -52,7 +52,7 @@ Consultant software engineer helping clients to improve their technical and lean
     },
     {
       title: "Bionexo - Software developer - São Paulo, Brazil",
-      period: "July 2017 - September 2018",
+      period: "Jul 2017 - Sep 2018",
       skills: [
         "OO",
         "Working Effectively with Legacy code",
@@ -64,10 +64,9 @@ Consultant software engineer helping clients to improve their technical and lean
 I have worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality and solving problems which were on the platform for years long and improving users satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
 `,
     },
-  ],
-  experience: [
     {
-      header: "ThoughtWorks - Software Developer - São Paulo, Brazil",
+      title: "ThoughtWorks - Software Developer - São Paulo, Brazil",
+      period: "Feb 2015 - Jun 2017",
       skills: [
         "Agile",
         "OO",
@@ -82,6 +81,14 @@ I have worked within the legacy platform team, helping the team apply techniques
       contents: `
 I worked as a consultant embedded to the customer's office, influencing, and helping them to improve their agile process, implementing continuous-delivery, and coding skills.
 `,
+    },
+  ],
+  experiences: [
+    {
+      contents: `
+Caelum teacher of Object Oriented Programming for 6 months. That was a great experience of teaching in one of best "bootcamps"-like in Brazil.
+      `,
+      skills: ["teaching"],
     },
   ],
 };
