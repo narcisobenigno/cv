@@ -8,6 +8,8 @@ module.exports = {
       '<a href="mailto:narciso.benigno@gmail.com"><i class="fa fa-envelope fact-icon"></i>narciso.benigno@gmail.com</a>',
     Linkedin:
       '<a href="https://www.linkedin.com/in/narcisobenigno/"><i class="fa-brands fa-linkedin-in fact-icon"></i>narcisobenigno</a>',
+    GitHub:
+      '<a href=""https://github.com/narcisobenigno/><i class="fa fa-github fact-icon"></i>narcisobenigno</a>',
   },
   positions: [
     {
@@ -83,7 +85,7 @@ I worked as a consultant embedded to the customer's office, influencing, and hel
 `,
     },
   ],
-  experiences: [
+  experience: [
     {
       contents: `
 Caelum teacher of Object Oriented Programming for 6 months. That was a great experience of teaching in one of best "bootcamps"-like in Brazil.
