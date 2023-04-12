@@ -1,68 +1,87 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: "Narciso Braga Benigno",
+  title: "Software developer",
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    Residence:
+      '<a href="https://www.google.com/maps/place/Sydney+NSW/@-33.8478796,150.7918939,11z/data=!3m1!4b1!4m6!3m5!1s0x6b129838f39a743f:0x3017d681632a850!8m2!3d-33.8688197!4d151.2092955!16zL20vMDZ5NTc0"><i class="fa fa-home fact-icon"></i>Sydney</a>',
+    Email:
+      '<a href="mailto:narciso.benigno@gmail.com"><i class="fa fa-envelope fact-icon"></i>narciso.benigno@gmail.com</a>',
+    Linkedin:
+      '<a href="https://www.linkedin.com/in/narcisobenigno/"><i class="fa-brands fa-linkedin-in fact-icon"></i>narcisobenigno</a>',
   },
-  skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
-  ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: "Indebted - Software developer - Sydney, Australia",
+      period: "August 2020 - Present",
+      skills: [
+        "Agile",
+        "Flow",
+        "AWS",
+        "Reactive Systems",
+        "Lambda",
+        "Event Sourcing",
+        "Terraform",
+        "SQS",
+        "SNS",
+        "S3",
+        "Aurora",
+        "OO",
+        "DynamoDB",
+        "TDD",
+        "DDD",
+      ],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+InDebted is a debt collection company that relies a lot on data to provide a smarter and more sensible approach, supporting customers to get their financial life back on track. We support those purposes using an event-sourcing based system, techniques like DDD and TDD.
+`,
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: "Pragmateam - Software developer - Sydney, Australia",
+      period: "December 2018 - August 2020",
+      skills: [
+        "Agile",
+        "OO",
+        "TDD",
+        "DDD",
+        "Consulting skils",
+        "JavaScript",
+        "Kotlin",
+      ],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+Consultant software engineer helping clients to improve their technical and lean/XP skills. Furthermore, I’m working with technologies such as React, Kotlin and microservices as well as techniques as TDD, DDD, continuous delivery and inceptions.
+`,
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: "Bionexo - Software developer - São Paulo, Brazil",
+      period: "July 2017 - September 2018",
+      skills: [
+        "OO",
+        "Working Effectively with Legacy code",
+        "TDD",
+        "DDD",
+        "Strangler Pattern",
+      ],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
+I have worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality and solving problems which were on the platform for years long and improving users satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
+`,
+    },
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: "ThoughtWorks - Software Developer - São Paulo, Brazil",
+      skills: [
+        "Agile",
+        "OO",
+        "TDD",
+        "DDD",
+        "Consulting skils",
+        "Ruby",
+        "Java",
+        "golang",
+        "rest",
+      ],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+I worked as a consultant embedded to the customer's office, influencing, and helping them to improve their agile process, implementing continuous-delivery, and coding skills.
+`,
     },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
-  ]
+  ],
 };
