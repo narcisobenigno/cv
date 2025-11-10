@@ -63,4 +63,23 @@ The site is then available at `https://{username}.github.io/{repo-name}`.
 
 ## Git Commit Conventions
 
-When creating commits, do NOT add co-author attributions or "Generated with Claude Code" footers. The repository owner will handle commit authorship through their own git configuration.
+Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+```
+
+**Types**: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`
+
+**Important guidelines**:
+- Focus on **WHY** the change was made, not what was changed (the diff shows the what)
+- Keep the description concise but meaningful
+- Use the body to explain motivation, context, or trade-offs when needed
+- Do NOT add co-author attributions or "Generated with Claude Code" footers
+
+**Examples**:
+- `feat: add PDF download to improve accessibility for recruiters`
+- `fix: correct margin calculation to prevent content overflow on print`
+- `refactor: simplify build script to improve maintainability`
