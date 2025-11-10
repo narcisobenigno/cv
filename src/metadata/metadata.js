@@ -35,9 +35,13 @@ module.exports = {
         "Fintech",
       ],
       contents: `
-Very early stage Fintech startup building a solid event sourcing platform. Led the transformation from using Notion as a database to a robust event sourcing architecture using AWS services (SQS, SNS, EventBridge, DynamoDB). Built reactive platform components and implemented reporting capabilities using GCP (BigQuery and Data Studio).
+Joined as the first dedicated engineer after a temporary engineer validated the market with a basic prototype (single API endpoint, Notion as database). My mandate was to transform this prototype into a production-grade application with robust features, scalability, and security.
 
-Facilitated Event Storming workshops to gather requirements with the team and stakeholders. Applied TDD, DDD, and clean architecture principles throughout the development process.
+The Notion-based system revealed critical bottlenecks: business processes built directly on top of Notion created deep coupling that required multiple iterations to decouple, poor technical and product observability, platform flakiness, and substantial manual operational overhead. Since Notion is not designed as a production database, removing this dependency was critical to avoid undermining the product's potential. After implementing initial features to enable sales, another engineer joined and I led the re-architecture of the entire system. Despite limited stakeholder availability, we conducted Event Storming workshops involving product, operations, sales, and marketing teams to inform the design.
+
+The migration strategy prioritized zero business disruption: deployed event sourcing infrastructure from day one, initially emitting events in-memory while maintaining the existing API contract to avoid breaking client integrations. Once the flow was complete, activated event persistence and migrated historical Notion data to proper events, giving older bookings the same functionality as new ones.
+
+This transformation eliminated manual operational work and enabled analytics capabilities through BigQuery projections, allowing teams to build dashboards and reports using low-code tools. All development maintained 24/7 availability with zero downtime throughout the transition.
 `,
     },
     {
