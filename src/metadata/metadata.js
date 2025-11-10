@@ -13,8 +13,35 @@ module.exports = {
   },
   positions: [
     {
+      title: "Slice Pay - Software developer - Sydney, Australia",
+      period: "February 2025 - Present",
+      skills: [
+        "Event Sourcing",
+        "Event Storming",
+        "Reactive Systems",
+        "AWS",
+        "SQS",
+        "SNS",
+        "EventBridge",
+        "DynamoDB",
+        "GCP",
+        "BigQuery",
+        "Data Studio",
+        "TDD",
+        "DDD",
+        "Clean Architecture",
+        "Agile",
+        "Fintech",
+      ],
+      contents: `
+Very early stage Fintech startup building a solid event sourcing platform. Led the transformation from using Notion as a database to a robust event sourcing architecture using AWS services (SQS, SNS, EventBridge, DynamoDB). Built reactive platform components and implemented reporting capabilities using GCP (BigQuery and Data Studio).
+
+Facilitated Event Storming workshops to gather requirements with the team and stakeholders. Applied TDD, DDD, and clean architecture principles throughout the development process.
+`,
+    },
+    {
       title: "Indebted - Software developer - Sydney, Australia",
-      period: "August 2020 - Present",
+      period: "August 2020 - February 2025",
       skills: [
         "Agile",
         "Flow",
