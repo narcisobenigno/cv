@@ -80,7 +80,7 @@ InDebted is a debt collection company that relies a lot on data to provide a sma
         "Kotlin",
       ],
       contents: `
-Consultant software engineer helping clients to improve their technical and lean/XP skills. Furthermore, I’m working with technologies such as React, Kotlin and microservices as well as techniques as TDD, DDD, continuous delivery and inceptions.
+Consultant software engineer helping clients to improve their technical and lean/XP skills. Furthermore, I worked with technologies such as React, Kotlin and microservices as well as techniques as TDD, DDD, continuous delivery and inceptions.
 `,
     },
     {
@@ -96,7 +96,7 @@ Consultant software engineer helping clients to improve their technical and lean
         "CD",
       ],
       contents: `
-I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality and solving problems which were on the platform for years long and improving users satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
+I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality, solving years-long platform problems and improving user satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
 `,
     },
     {
