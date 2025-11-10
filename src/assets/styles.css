@@ -164,3 +164,11 @@ h1, h2, h3, h4 {
     object-fit: cover;
     object-position: center;
 }
+
+.facts-list {
+    min-width: 380px;
+}
+
+.facts-list .list-group-item {
+    gap: 2rem;
+}
