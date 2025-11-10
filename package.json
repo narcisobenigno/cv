@@ -25,15 +25,13 @@
   "homepage": "https://github.com/sneas/cv-project#readme",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
-    "dayjs": "^1.11.4",
-    "fs-extra": "^11.1.1",
-    "git-repo-name": "^1.0.1",
-    "git-username": "^1.0.0",
-    "handlebars": "^4.7.7",
+    "dayjs": "^1.11.19",
+    "fs-extra": "^11.3.2",
+    "handlebars": "^4.7.8",
     "live-server": "^1.1.0",
     "markdown": "^0.5.0",
-    "puppeteer": "^19.8.5",
+    "puppeteer": "^24.29.1",
     "speakingurl": "^14.0.1",
-    "watch": "^0.13.0"
+    "watch": "^1.0.2"
   }
 }
