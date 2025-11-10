@@ -9,7 +9,7 @@ module.exports = {
     Linkedin:
       '<a href="https://www.linkedin.com/in/narcisobenigno/"><i class="fa-brands fa-linkedin-in fact-icon"></i>narcisobenigno</a>',
     GitHub:
-      '<a href=""https://github.com/narcisobenigno/><i class="fab fa-github fact-icon"></i>narcisobenigno</a>',
+      '<a href="https://github.com/narcisobenigno"><i class="fab fa-github fact-icon"></i>narcisobenigno</a>',
   },
   positions: [
     {
@@ -75,7 +75,7 @@ InDebted is a debt collection company that relies a lot on data to provide a sma
         "CI",
         "CD",
         "DDD",
-        "Consulting skils",
+        "Consulting skills",
         "JavaScript",
         "Kotlin",
       ],
@@ -96,7 +96,7 @@ Consultant software engineer helping clients to improve their technical and lean
         "CD",
       ],
       contents: `
-I have worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality and solving problems which were on the platform for years long and improving users satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
+I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality and solving problems which were on the platform for years long and improving users satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
 `,
     },
     {
@@ -109,7 +109,7 @@ I have worked within the legacy platform team, helping the team apply techniques
         "DDD",
         "CI",
         "CD",
-        "Consulting skils",
+        "Consulting skills",
         "Ruby",
         "Java",
         "golang",
