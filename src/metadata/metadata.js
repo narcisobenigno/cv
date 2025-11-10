@@ -19,6 +19,7 @@ module.exports = {
         "Event Sourcing",
         "Event Storming",
         "Reactive Systems",
+        "TypeScript",
         "AWS",
         "SQS",
         "SNS",
