@@ -41,7 +41,7 @@ The Notion-based system revealed critical bottlenecks: business processes built 
 
 The migration strategy prioritized zero business disruption: deployed event sourcing infrastructure from day one, initially emitting events in-memory while maintaining the existing API contract to avoid breaking client integrations. Once the flow was complete, activated event persistence and migrated historical Notion data to proper events, giving older bookings the same functionality as new ones.
 
-This transformation eliminated manual operational work and enabled analytics capabilities through BigQuery projections, allowing teams to build dashboards and reports using low-code tools. All development maintained 24/7 availability with zero downtime throughout the transition.
+This transformation achieved substantial reduction in manual operational and engineering work tracked by metrics, while enabling analytics capabilities through BigQuery projections that allowed teams to build dashboards and reports using low-code tools. All development maintained 24/7 availability with zero downtime throughout the transition.
 `,
     },
     {
