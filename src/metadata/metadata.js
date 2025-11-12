@@ -13,7 +13,7 @@ module.exports = {
   },
   positions: [
     {
-      title: "Slice Pay - Software developer - Sydney, Australia",
+      title: "Slice Pay - Staff Engineer - Sydney, Australia",
       period: "February 2025 - Present",
       skills: [
         "Event Sourcing",
