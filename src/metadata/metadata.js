@@ -93,9 +93,9 @@ Throughout this work, I maintained the platform's 24/7 availability with zero do
         "Kotlin",
       ],
       contents: `
-Worked as a consultant software engineer across two major engagements, helping organizations improve their technical practices and delivery capabilities.
+Worked as a consultant software engineer across two major engagements, helping organisations improve their technical practices and delivery capabilities.
 
-At a large private company, I focused on frontend delivery using Angular, working closely with the team through pair programming to deliver features while applying TDD practices. I also provided architectural guidance on frontend codebase structure, helping establish patterns that improved code organization and maintainability.
+At a large private company, I focused on frontend delivery using Angular, working closely with the team through pair programming to deliver features while applying TDD practices. I also provided architectural guidance on frontend codebase structure, helping establish patterns that improved code organisation and maintainability.
 
 At Service NSW (government agency), I joined a team with already strong TDD principles and focused on delivering features while upskilling the team on advanced testing strategies and CI/CD pipelines. The engagement involved practical work with Kotlin on an AWS-based platform, establishing deployment automation that improved their delivery capabilities.
 `,
@@ -113,7 +113,7 @@ At Service NSW (government agency), I joined a team with already strong TDD prin
         "CD",
       ],
       contents: `
-I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code" by organizing Kata sessions to improve our skills and confidence when dealing with such codebases. Using Pair Programming to address issues, we first measured the problems to isolate the biggest sources of issues, then worked together to tackle them systematically. Through this approach, we introduced automated tests and improved the code base quality, solving years-long platform problems and improving user satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
+I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code" by organising Kata sessions to improve our skills and confidence when dealing with such codebases. Using Pair Programming to address issues, we first measured the problems to isolate the biggest sources of issues, then worked together to tackle them systematically. Through this approach, we introduced automated tests and improved the code base quality, solving years-long platform problems and improving user satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
 `,
     },
     {
@@ -133,7 +133,7 @@ I worked within the legacy platform team, helping the team apply techniques desc
         "rest",
       ],
       contents: `
-I worked as a consultant on 2 major client engagements across e-commerce and pharmaceutical industries. On the first project—a large e-commerce platform—I was hired as the first engineer with previous Ruby ecosystem knowledge for a remote team based in another state. I served as the on-site ThoughtWorks team representative, helped prepare inceptions, and synchronized priorities across multiple stakeholders. I led major testing and design improvements to their codebase and enhanced delivery provider integrations, resulting in more stable and reliable services.
+I worked as a consultant on 2 major client engagements across e-commerce and pharmaceutical industries. On the first project—a large e-commerce platform—I was hired as the first engineer with previous Ruby ecosystem knowledge for a remote team based in another state. I served as the on-site ThoughtWorks team representative, helped prepare inceptions, and synchronised priorities across multiple stakeholders. I led major testing and design improvements to their codebase and enhanced delivery provider integrations, resulting in more stable and reliable services.
 
 On the second engagement—an India-based project for a large US pharmacy company—I coached the team on design skills and TDD practices through pair programming. This resulted in significant improvements to their product development flow, including reduced bugs and faster delivery times.
 `,
