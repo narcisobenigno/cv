@@ -45,7 +45,7 @@ This transformation achieved substantial reduction in manual operational and eng
 `,
     },
     {
-      title: "Indebted - Software developer - Sydney, Australia",
+      title: "Indebted - Staff Engineer - Sydney, Australia",
       period: "August 2020 - February 2025",
       skills: [
         "Agile",
