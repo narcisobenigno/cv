@@ -93,7 +93,11 @@ Throughout this work, I maintained the platform's 24/7 availability with zero do
         "Kotlin",
       ],
       contents: `
-Consultant software engineer helping clients to improve their technical and lean/XP skills. Furthermore, I worked with technologies such as React, Kotlin and microservices as well as techniques as TDD, DDD, continuous delivery and inceptions.
+Worked as a consultant software engineer across two major engagements, helping organizations improve their technical practices and delivery capabilities.
+
+At a large private company, I focused on frontend delivery using Angular, working closely with the team through pair programming to deliver features while applying TDD practices. I also provided architectural guidance on frontend codebase structure, helping establish patterns that improved code organization and maintainability.
+
+At Service NSW (government agency), I joined a team with already strong TDD principles and focused on delivering features while upskilling the team on advanced testing strategies and CI/CD pipelines. The engagement involved practical work with Kotlin on an AWS-based platform, establishing deployment automation that improved their delivery capabilities.
 `,
     },
     {
