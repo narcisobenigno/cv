@@ -113,7 +113,7 @@ At Service NSW (government agency), I joined a team with already strong TDD prin
         "CD",
       ],
       contents: `
-I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code". So, we introduced automated tests and improved the code base quality, solving years-long platform problems and improving user satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
+I worked within the legacy platform team, helping the team apply techniques described in the book "Working Effectively with Legacy Code" by organizing Kata sessions to improve our skills and confidence when dealing with such codebases. Using Pair Programming to address issues, we first measured the problems to isolate the biggest sources of issues, then worked together to tackle them systematically. Through this approach, we introduced automated tests and improved the code base quality, solving years-long platform problems and improving user satisfaction. Furthermore, I was involved in the project to migrate from that legacy platform to a new one.
 `,
     },
     {
