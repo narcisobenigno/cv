@@ -133,7 +133,9 @@ I worked within the legacy platform team, helping the team apply techniques desc
         "rest",
       ],
       contents: `
-I worked as a consultant embedded to the customer's office, influencing, and helping them to improve their agile process, implementing continuous-delivery, and coding skills.
+I worked as a consultant on 2 major client engagements across e-commerce and pharmaceutical industries. On the first project—a large e-commerce platform—I was hired as the first engineer with previous Ruby ecosystem knowledge for a remote team based in another state. I served as the on-site ThoughtWorks team representative, helped prepare inceptions, and synchronized priorities across multiple stakeholders. I led major testing and design improvements to their codebase and enhanced delivery provider integrations, resulting in more stable and reliable services.
+
+On the second engagement—an India-based project for a large US pharmacy company—I coached the team on design skills and TDD practices through pair programming. This resulted in significant improvements to their product development flow, including reduced bugs and faster delivery times.
 `,
     },
   ],
