@@ -69,7 +69,7 @@ This transformation achieved substantial reduction in manual operational and eng
       contents: `
 InDebted is a debt collection company that relies on data to provide a smarter and more sensible approach, supporting customers to get their financial life back on track.
 
-During my tenure, I was instrumental in the platform's globalization efforts. First, expanding to Canada which required adapting the platform to meet Canadian regulatory requirements. Then leading the more complex expansion to the US market, ensuring compliance with US-specific debt collection regulations.
+During my tenure, I was instrumental in the platform's globalisation efforts. First, expanding to Canada which required adapting the platform to meet Canadian regulatory requirements. Then leading the more complex expansion to the US market, ensuring compliance with US-specific debt collection regulations.
 
 A key technical achievement was absorbing the legacy platform into the new event sourcing architecture. This migration preserved complete audit trails for old accounts and maintained data integrity and history for existing clients, ensuring no data loss during the transition.
 
