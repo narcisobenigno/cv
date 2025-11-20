@@ -65,17 +65,18 @@ This transformation achieved substantial reduction in manual operational and eng
         "DynamoDB",
         "TDD",
         "DDD",
+        "React",
       ],
       contents: `
 InDebted is a debt collection company that relies on data to provide a smarter and more sensible approach, supporting customers to get their financial life back on track.
 
-During my tenure, I was instrumental in the platform's globalisation efforts. First, expanding to Canada which required adapting the platform to meet Canadian regulatory requirements. Then leading the more complex expansion to the US market, ensuring compliance with US-specific debt collection regulations.
+During my period at InDebted, I was instrumental in the platform's globalisation efforts. First, expanding to Canada which required adapting the platform to meet Canadian regulatory requirements. Then leading the more complex expansion to the US market, ensuring compliance with US-specific debt collection regulations.
 
 A key technical achievement was absorbing the legacy platform into the new event sourcing architecture. This migration preserved complete audit trails for old accounts and maintained data integrity and history for existing clients, ensuring no data loss during the transition.
 
-Working within a team of 10 engineers, I collaborated primarily through pair and mob programming to tackle complex challenges. When timezone differences between US and Australia made mobbing impractical, we maintained regular check-ins to ensure alignment. Combined with trunk-based development, this approach resulted in minimal rework, low bug rates, and eliminated time spent on code reviews.
+Working within a team of 10 engineers, I collaborated primarily through pair and mob programming to tackle complex challenges and leading many of those teams tackling strategic goals. When timezone differences between US and Australia made mobbing impractical, we maintained regular check-ins to ensure alignment. Combined with trunk-based development, this approach resulted in minimal rework, low bug rates, and eliminated time spent on code reviews.
 
-Throughout this work, I maintained the platform's 24/7 availability with zero downtime. The architecture enabled continuous experimentation and real-time impact measurement while ensuring the team could progress independently with fast releases and simple extensibility.
+Throughout this work, I maintained the platform's 24/7 availability with zero downtime. The architecture enabled continuous experimentation and real-time impact measurement while ensuring the team could progress independently with fast releases and simple extensibility. As well as changing and implementing features into the Indebted's frontend application using React.
 `,
     },
     {
