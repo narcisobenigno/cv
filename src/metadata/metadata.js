@@ -14,12 +14,16 @@ module.exports = {
   positions: [
     {
       title: "Slice Pay - Staff Engineer - Sydney, Australia",
-      period: "February 2025 - Present",
+      period: "February 2025 - November 2025",
       skills: [
         "Event Sourcing",
         "Event Storming",
         "Reactive Systems",
         "TypeScript",
+        "Server Side Rendering web apps",
+        "Node.js",
+        "AWS Lambda",
+        "API Gateway",
         "AWS",
         "SQS",
         "SNS",
@@ -33,6 +37,7 @@ module.exports = {
         "Clean Architecture",
         "Agile",
         "Fintech",
+        "Pulumi",
       ],
       contents: `
 Joined as the first dedicated engineer after a temporary engineer validated the market with a basic prototype (single API endpoint, Notion as database). My mandate was to transform this prototype into a production-grade application with robust features, scalability, and security.
