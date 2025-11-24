@@ -16,6 +16,7 @@ module.exports = {
       title: "Slice Pay - Staff Engineer - Sydney, Australia",
       period: "February 2025 - November 2025",
       skills: [
+        "CQRS",
         "Event Sourcing",
         "Event Storming",
         "Reactive Systems",
@@ -44,7 +45,7 @@ Joined as the first dedicated engineer after a temporary engineer validated the 
 
 The Notion-based system revealed critical bottlenecks: business processes built directly on top of Notion created deep coupling that required multiple iterations to decouple, poor technical and product observability, platform flakiness, and substantial manual operational overhead. Since Notion is not designed as a production database, removing this dependency was critical to avoid undermining the product's potential. After implementing initial features to enable sales, another engineer joined and I led the re-architecture of the entire system. Despite limited stakeholder availability, we conducted Event Storming workshops involving product, operations, sales, and marketing teams to inform the design.
 
-The migration strategy prioritized zero business disruption: deployed event sourcing infrastructure from day one, initially emitting events in-memory while maintaining the existing API contract to avoid breaking client integrations. Once the flow was complete, activated event persistence and migrated historical Notion data to proper events, giving older bookings the same functionality as new ones.
+The migration strategy prioritized zero business disruption: deployed CQRS with event sourcing infrastructure from day one, initially emitting events in-memory while maintaining the existing API contract to avoid breaking client integrations. Once the flow was complete, activated event persistence and migrated historical Notion data to proper events, giving older bookings the same functionality as new ones.
 
 This transformation achieved substantial reduction in manual operational and engineering work tracked by metrics, while enabling analytics capabilities through BigQuery projections that allowed teams to build dashboards and reports using low-code tools. All development maintained 24/7 availability with zero downtime throughout the transition.
 `,
@@ -60,6 +61,7 @@ This transformation achieved substantial reduction in manual operational and eng
         "CD",
         "Reactive Systems",
         "Lambda",
+        "CQRS",
         "Event Sourcing",
         "Terraform",
         "SQS",
@@ -77,7 +79,7 @@ InDebted is a debt collection company that relies on data to provide a smarter a
 
 During my period at InDebted, I was instrumental in the platform's globalisation efforts. First, expanding to Canada which required adapting the platform to meet Canadian regulatory requirements. Then leading the more complex expansion to the US market, ensuring compliance with US-specific debt collection regulations.
 
-A key technical achievement was absorbing the legacy platform into the new event sourcing architecture. This migration preserved complete audit trails for old accounts and maintained data integrity and history for existing clients, ensuring no data loss during the transition.
+A key technical achievement was absorbing the legacy platform into the new CQRS and event sourcing architecture. This migration preserved complete audit trails for old accounts and maintained data integrity and history for existing clients, ensuring no data loss during the transition.
 
 Working within a team of 10 engineers, I collaborated primarily through pair and mob programming to tackle complex challenges and leading many of those teams tackling strategic goals. When timezone differences between US and Australia made mobbing impractical, we maintained regular check-ins to ensure alignment. Combined with trunk-based development, this approach resulted in minimal rework, low bug rates, and eliminated time spent on code reviews.
 
