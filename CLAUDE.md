@@ -30,17 +30,17 @@ The build process is orchestrated by `src/build.js`:
 
 ### Development
 ```bash
-npm start                # Build, watch for changes, and serve with live reload
-npm run watch           # Watch files and rebuild on changes (excludes dist/)
-npm run build           # Build HTML and PDF to dist/ directory
+bun start                # Build, watch for changes, and serve with live reload
+bun run watch           # Watch files and rebuild on changes (excludes dist/)
+bun run build           # Build HTML and PDF to dist/ directory
 ```
 
 ### Deployment
 ```bash
-npm run deploy          # Build and deploy to gh-pages branch (one-time setup)
+bun run deploy          # Build and deploy to gh-pages branch (one-time setup)
 ```
 
-Note: After initial `npm run deploy`, GitHub Actions automatically handles deployments on push to `main`.
+Note: After initial `bun run deploy`, GitHub Actions automatically handles deployments on push to `main`.
 
 ## Content Updates
 
@@ -55,8 +55,8 @@ The template supports markdown in the `contents` fields of positions and experie
 ## CI/CD
 
 GitHub Actions workflow (`.github/workflows/gh-pages.yml`) runs on every push to `main`:
-1. Sets up Node.js 18.x on macOS runner
-2. Runs `npm install` and `npm run build`
+1. Sets up Bun (latest version) on macOS runner
+2. Runs `bun install` and `bun run build`
 3. Deploys `dist/` folder to `gh-pages` branch
 
 The site is then available at `https://{username}.github.io/{repo-name}`.
