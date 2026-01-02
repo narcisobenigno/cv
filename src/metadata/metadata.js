@@ -68,6 +68,8 @@ This transformation achieved substantial reduction in manual operational and eng
         "SNS",
         "S3",
         "Aurora",
+        "PostgreSQL",
+        "SQL",
         "OO",
         "DynamoDB",
         "TDD",
