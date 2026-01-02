@@ -152,9 +152,9 @@ On the second engagement—an India-based project for a large US pharmacy compan
   experience: [
     {
       contents: `
-Caelum teacher of Object Oriented Programming for 6 months. That was a great experience of teaching in one of best "bootcamps"-like in Brazil.
+Caelum teacher of Object Oriented Programming for 6 months. That was a great experience of teaching in one of best "bootcamps"-like in Brazil. For other professional experiences including positions at Locaweb, GoNow, and other organisations, please refer to my [LinkedIn profile](https://www.linkedin.com/in/narcisobenigno/).
       `,
-      skills: ["teaching"],
+      skills: ["teaching", "Java", "Ruby", "Ruby On Rails", "Scala", "Node.js", "Redis"],
     },
   ],
 };
