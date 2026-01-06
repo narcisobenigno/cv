@@ -39,6 +39,7 @@ module.exports = {
         "Agile",
         "Fintech",
         "Pulumi",
+        "monorepo",
       ],
       contents: `
 Joined as the first dedicated engineer after a temporary engineer validated product-market fit with a basic prototype (single API endpoint, Notion as database). My main responsibility was to improve sales by providing minimum features and assess the potential business and technical bottlenecks that were emerging.
@@ -75,6 +76,8 @@ This transformation achieved substantial reduction in manual operational and eng
         "TDD",
         "DDD",
         "React",
+        "golang",
+        "monorepo",
       ],
       contents: `
 InDebted is a debt collection company that relies on data to provide a smarter and more sensible approach, supporting customers to get their financial life back on track.
