@@ -13,7 +13,7 @@ module.exports = {
   },
   positions: [
     {
-      title: "Slice Pay - Staff Engineer - Sydney, Australia",
+      title: "Slice Pay - Software Engineer - Sydney, Australia",
       period: "February 2025 - November 2025",
       skills: [
         "CQRS",
@@ -52,7 +52,7 @@ This transformation achieved substantial reduction in manual operational and eng
 `,
     },
     {
-      title: "Indebted - Staff Engineer - Sydney, Australia",
+      title: "Indebted - Software Engineer - Sydney, Australia",
       period: "August 2020 - February 2025",
       skills: [
         "Agile",
@@ -157,7 +157,15 @@ On the second engagement—an India-based project for a large US pharmacy compan
       contents: `
 Caelum teacher of Object Oriented Programming for 6 months. That was a great experience of teaching in one of best "bootcamps"-like in Brazil. For other professional experiences including positions at Locaweb, GoNow, and other organisations, please refer to my [LinkedIn profile](https://www.linkedin.com/in/narcisobenigno/).
       `,
-      skills: ["teaching", "Java", "Ruby", "Ruby On Rails", "Scala", "Node.js", "Redis"],
+      skills: [
+        "teaching",
+        "Java",
+        "Ruby",
+        "Ruby On Rails",
+        "Scala",
+        "Node.js",
+        "Redis",
+      ],
     },
   ],
 };
