@@ -46,9 +46,9 @@ Joined as the first dedicated engineer after a temporary engineer validated prod
 
 The Notion-based system revealed critical bottlenecks: business processes built directly on top of Notion created deep coupling that required multiple iterations to decouple, poor technical and product observability, platform flakiness, and substantial manual operational overhead. Since Notion is not designed as a production database, removing this dependency was critical to avoid undermining the product's potential. After implementing initial features to enable sales, I led the re-architecture of the entire system. We facilitated Event Storming workshops involving product, operations, sales, and marketing teams to inform the design.
 
-The migration strategy prioritized zero business disruption: deployed CQRS with event sourcing infrastructure from day one, initially emitting events in-memory while maintaining the existing API contract to avoid breaking client integrations. Once the flow was complete, activated event persistence and migrated historical Notion data to proper events, giving older bookings the same functionality as new ones.
+The migration prioritized zero business disruption: the new architecture ran in shadow mode alongside the existing system, keeping the API unchanged so clients continued working without modification. Once validated, we switched to the new storage layer and backfilled historical Notion data, giving older bookings the same capabilities as new ones.
 
-This transformation achieved substantial reduction in manual operational and engineering work tracked by metrics, while enabling analytics capabilities through BigQuery projections that allowed teams to build dashboards and reports using low-code tools. All development maintained 24/7 availability with zero downtime throughout the transition.
+This transformation significantly reduced manual operational overhead while unlocking analytics capabilities that were previously impractical: product and sales could now track individual agency performance, improve risk assessment, and build their own dashboards using low-code tools. All development maintained 24/7 availability with zero downtime throughout the transition.
 `,
     },
     {
