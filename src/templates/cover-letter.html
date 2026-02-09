@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>{{ name }} - Cover Letter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <style>
+        :root {
+            --light-color: #D9D9D9;
+        }
+        body {
+            font-family: Roboto, sans-serif;
+            color: #333;
+            line-height: 1.7;
+            font-size: 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #000;
+            margin-bottom: 0.2rem;
+        }
+        .title {
+            color: #858585;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+        }
+        .contact {
+            color: #858585;
+            font-size: 0.9rem;
+            margin-bottom: 0.3rem;
+        }
+        .contact a {
+            color: #858585;
+            text-decoration: none;
+        }
+        .date {
+            color: #858585;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        .fact-icon {
+            width: 1em;
+            color: var(--light-color);
+            margin-right: 0.5rem;
+        }
+        .far, .fab, .fas, .fa {
+            text-decoration: none !important;
+            margin-right: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        @media print {
+            body { font-size: 0.8rem; }
+            a { text-decoration: underline; }
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ name }}</h1>
+    <div class="title">{{ title }}</div>
+    <div class="contact">
+        {{#each facts}}
+        <span>{{{ this }}}</span>{{#unless @last}} · {{/unless}}
+        {{/each}}
+    </div>
+    <div class="date">{{ updated }}</div>
+
+    {{#each summary}}
+    <p>{{ this }}</p>
+    {{/each}}
+</body>
+</html>

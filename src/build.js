@@ -48,14 +48,32 @@ handlebars.registerHelper('markdown', markdownHelper);
 const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const template = handlebars.compile(source);
 const pdfFileName = `${getSlug(templateData.name)}.${getSlug(templateData.title)}.pdf`;
+const coverLetterFileName = `${getSlug(templateData.name)}.${getSlug(templateData.title)}.cover-letter.pdf`;
+const updated = dayjs().format('MMMM D, YYYY');
+
 const html = template({
   ...templateData,
   baseUrl: `https://${username}.github.io/${repoName}`,
   pdfFileName,
-  updated: dayjs().format('MMMM D, YYYY'),
+  coverLetterFileName,
+  updated,
 });
 
 fs.writeFileSync(outputDir + '/index.html', html);
 
-// Build PDF
-buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
+// Build cover letter HTML
+const coverLetterSource = fs.readFileSync(srcDir + '/templates/cover-letter.html', 'utf-8');
+const coverLetterTemplate = handlebars.compile(coverLetterSource);
+const coverLetterHtml = coverLetterTemplate({
+  ...templateData,
+  coverLetterFileName,
+  updated,
+});
+
+fs.writeFileSync(outputDir + '/cover-letter.html', coverLetterHtml);
+
+// Build PDFs
+(async () => {
+  await buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
+  await buildPdf(`${outputDir}/cover-letter.html`, `${outputDir}/${coverLetterFileName}`);
+})();

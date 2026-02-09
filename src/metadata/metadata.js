@@ -1,6 +1,11 @@
 module.exports = {
   name: "Narciso Braga Benigno",
   title: "Software developer",
+  summary: [
+    "Over 15 years of professional software development across startups, scale-ups, and consultancies have taken me through diverse environments and teams across Brazil and Australia. I've worked with Golang, Java, Ruby, TypeScript, and Kotlin in both on-premise and cloud environments (AWS, GCP), learning to adapt quickly to different organisational contexts and technical challenges.",
+    "I can help organisations at any stage\u2014early startups delivering and validating hypotheses with simple architectures, scale-ups modernizing architectures for sustainable growth while mitigating operational risk through frequent delivery and minimal disruption, or established companies strengthening team practices for sustainable delivery. This includes establishing DevOps practices with cloud infrastructure on AWS, Observability, expanding platforms internationally while balancing regulatory compliance with business delivery, and combining technical practices (TDD, Continuous Delivery, DDD) with collaborative approaches that enable teams to experiment, deliver incrementally, and maintain sustainable pace.",
+    "Recently, I've been developing and researching with AI, exploring how it impacts team dynamics, flow, software architecture, and collaboration patterns. If your organisation needs hands-on help with event sourcing adoption, international platform expansion, or strengthening agile engineering practices, I bring proven experience from global platform transformations and legacy migrations.",
+  ],
   facts: {
     Residence:
       '<a href="https://www.google.com/maps/place/Sydney+NSW/@-33.8478796,150.7918939,11z/data=!3m1!4b1!4m6!3m5!1s0x6b129838f39a743f:0x3017d681632a850!8m2!3d-33.8688197!4d151.2092955!16zL20vMDZ5NTc0"><i class="fa fa-home fact-icon"></i>Sydney</a>',
