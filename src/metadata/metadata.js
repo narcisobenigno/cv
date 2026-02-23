@@ -18,7 +18,7 @@ module.exports = {
   },
   positions: [
     {
-      title: "Slice Pay - Software Engineer - Sydney, Australia",
+      title: "Slice Pay - Staff Software Engineer - Sydney, Australia",
       period: "February 2025 - November 2025",
       skills: [
         "CQRS",
@@ -49,7 +49,7 @@ module.exports = {
       contents: `
 Joined as the first dedicated engineer after a temporary engineer validated product-market fit with a basic prototype (single API endpoint, Notion as database). My main responsibility was to improve sales by providing minimum features and assess the potential business and technical bottlenecks that were emerging.
 
-The Notion-based system revealed critical bottlenecks: business processes built directly on top of Notion created deep coupling that required multiple iterations to decouple, poor technical and product observability, platform flakiness, and substantial manual operational overhead. Since Notion is not designed as a production database, removing this dependency was critical to avoid undermining the product's potential. After implementing initial features to enable sales, I led the re-architecture of the entire system. We facilitated Event Storming workshops involving product, operations, sales, and marketing teams to inform the design.
+The Notion-based system revealed critical bottlenecks: business processes built directly on top of Notion created deep coupling that required multiple iterations to decouple, poor technical and product observability, platform flakiness, and substantial manual operational overhead. Since Notion is not designed as a production database, removing this dependency was critical to avoid undermining the product's potential. After implementing initial features to enable sales, I led the re-architecture of the entire system. I've facilitated Event Storming workshops involving product, operations, sales, and marketing teams to inform the design.
 
 The migration prioritized zero business disruption: the new architecture ran in shadow mode alongside the existing system, keeping the API unchanged so clients continued working without modification. Once validated, we switched to the new storage layer and backfilled historical data, giving older bookings the same capabilities as new ones.
 
@@ -57,7 +57,7 @@ This transformation significantly reduced manual operational overhead while unlo
 `,
     },
     {
-      title: "Indebted - Software Engineer - Sydney, Australia",
+      title: "Indebted - Staff Software Engineer - Sydney, Australia",
       period: "August 2020 - February 2025",
       skills: [
         "Agile",
