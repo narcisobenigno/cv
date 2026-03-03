@@ -9,6 +9,7 @@ module.exports = {
   facts: {
     Residence:
       '<a href="https://www.google.com/maps/place/Sydney+NSW/@-33.8478796,150.7918939,11z/data=!3m1!4b1!4m6!3m5!1s0x6b129838f39a743f:0x3017d681632a850!8m2!3d-33.8688197!4d151.2092955!16zL20vMDZ5NTc0"><i class="fa fa-home fact-icon"></i>Sydney</a>',
+    "Working Rights": "Citizen of Australia and Brazil",
     Email:
       '<a href="mailto:narciso.benigno@gmail.com"><i class="fa fa-envelope fact-icon"></i>narciso.benigno@gmail.com</a>',
     Linkedin:
