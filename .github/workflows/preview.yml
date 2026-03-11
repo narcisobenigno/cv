@@ -1,0 +1,25 @@
+name: Deploy Preview
+on:
+  push:
+    branches-ignore:
+      - main
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: latest
+    - run: bun install
+    - run: bun run build
+      env:
+        BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/preview
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
+        TARGET_FOLDER: preview

@@ -53,7 +53,7 @@ const updated = dayjs().format('MMMM D, YYYY');
 
 const html = template({
   ...templateData,
-  baseUrl: `https://${username}.github.io/${repoName}`,
+  baseUrl: process.env.BASE_URL || `https://${username}.github.io/${repoName}`,
   pdfFileName,
   coverLetterFileName,
   updated,
